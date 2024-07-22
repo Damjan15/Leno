@@ -100,6 +100,11 @@ img {
     color: #fff;
 }
 
+.navbar.navbar--scroll {
+    background-color: rgba(38, 36, 49, 0.8);
+    backdrop-filter: blur(10px);
+}
+
 /* Mobile Menu */
 .navbar__mobile-menu {
     display: none;

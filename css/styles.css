@@ -448,7 +448,38 @@ img {
   font-weight: 400;
 }
 
+/* Screenshots */
+.screenshots {
+  padding: 6rem 2rem;
+  background: var(--tertiary-color);
+  text-align: center;
+}
 
+.screenshots__container {
+  max-width: 1200px;
+}
+
+.screenshots__title {
+  font-size: 2.3rem;
+  text-transform: uppercase;
+  border-bottom: 2px solid var(--primary-color);
+  width: 300px;
+  margin: 0 auto 2.5rem;
+}
+
+.screenshot__images {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.screenshot__images img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
 
 
 /* Media Queries */

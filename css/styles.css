@@ -76,6 +76,11 @@ ul {
   height: 36px;
 }
 
+.navbar.navbar--scroll {
+  background-color: rgba(38, 36, 49, 0.8);
+  backdrop-filter: blur(10px);
+}
+
 .navbar__menu-list {
   display: flex;
   align-items: center;

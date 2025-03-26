@@ -589,6 +589,57 @@ ul {
     url("../images/header-background.jpg") center center/cover no-repeat;
 }
 
+/* Pricing */
+.pricing {
+  padding: 4rem 2rem 6rem;
+  background: var(--tetiary-color);
+}
+
+.pricing__title {
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.pricing__cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+}
+
+.pricing__card-box {
+  padding: 2.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  margin-bottom: 2rem;
+  border-radius: 30px;
+}
+
+.pricing__card-title {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.pricing__card-price {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.pricing__card-list {
+  text-align: left;
+  line-height: 2.5rem;
+  font-weight: 300;
+}
+
+.pricing__card-item i {
+  color: var(--primary-color);
+  margin-right: 0.5rem;
+}
+
 /* Screens less than 992px */
 @media (max-width: 992px) {
   .hero {
@@ -759,5 +810,13 @@ ul {
 
   .modal__content iframe {
     width: 100%;
+  }
+
+  .pricing__cards {
+    flex-direction: column;
+  }
+
+  .pricing__card-box {
+    margin-bottom: 4.5rem;
   }
 }

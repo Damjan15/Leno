@@ -640,6 +640,13 @@ ul {
   margin-right: 0.5rem;
 }
 
+/* Pricing Notes */
+.pricing-notes {
+  padding: 3rem 2rem;
+  color: #9f9caf;
+  text-align: center;
+}
+
 /* Screens less than 992px */
 @media (max-width: 992px) {
   .hero {
